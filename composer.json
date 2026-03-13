@@ -1,0 +1,41 @@
+{
+    "name": "philiprehberger/php-install-doctor",
+    "description": "CLI diagnostic tool that checks PHP extensions, permissions, and configuration",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "diagnostic",
+        "doctor",
+        "check",
+        "php",
+        "extensions"
+    ],
+    "authors": [
+        {
+            "name": "Philip Rehberger"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "laravel/pint": "^1.0",
+        "phpstan/phpstan": "^1.12|^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhilipRehberger\\InstallDoctor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhilipRehberger\\InstallDoctor\\Tests\\": "tests/"
+        }
+    },
+    "bin": [
+        "bin/doctor"
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
