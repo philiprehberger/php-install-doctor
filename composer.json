@@ -10,6 +10,7 @@
         "php",
         "extensions"
     ],
+    "homepage": "https://github.com/philiprehberger/php-install-doctor",
     "authors": [
         {
             "name": "Philip Rehberger"
@@ -36,6 +37,11 @@
     "bin": [
         "bin/doctor"
     ],
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "lint": "vendor/bin/pint",
+        "analyse": "vendor/bin/phpstan analyse"
+    },
     "minimum-stability": "stable",
     "prefer-stable": true
 }
