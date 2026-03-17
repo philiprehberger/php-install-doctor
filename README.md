@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/philiprehberger/php-install-doctor/actions/workflows/tests.yml/badge.svg)](https://github.com/philiprehberger/php-install-doctor/actions/workflows/tests.yml)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/philiprehberger/php-install-doctor.svg)](https://packagist.org/packages/philiprehberger/php-install-doctor)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/philiprehberger/php-install-doctor)](LICENSE)
 
 CLI diagnostic tool that checks PHP extensions, permissions, and configuration.
 
@@ -154,13 +154,15 @@ $report = Doctor::check(
 
 Enum with cases: `Pass`, `Warning`, `Fail`.
 
-## Testing
+## Development
 
 ```bash
 composer install
 vendor/bin/phpunit
+vendor/bin/pint --test
+vendor/bin/phpstan analyse
 ```
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT
