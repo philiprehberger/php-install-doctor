@@ -8,7 +8,7 @@ CLI diagnostic tool that checks PHP extensions, permissions, and configuration.
 
 ## Requirements
 
-- PHP ^8.2
+- PHP 8.2+
 
 ## Installation
 
@@ -16,7 +16,7 @@ CLI diagnostic tool that checks PHP extensions, permissions, and configuration.
 composer require philiprehberger/php-install-doctor
 ```
 
-## CLI Usage
+## Usage
 
 Run the built-in diagnostic command:
 
@@ -38,7 +38,7 @@ Results: 3 passed, 0 warnings, 0 failed (total: 3)
 
 The command exits with code `0` if all checks pass, or `1` if any check fails.
 
-## Programmatic Usage
+### Programmatic Usage
 
 ### Run all default checks
 
@@ -86,7 +86,7 @@ $data = $report->toArray();
 // ]
 ```
 
-## Built-in Checks
+### Built-in Checks
 
 | Check | Description | Default |
 |---|---|---|
@@ -95,7 +95,7 @@ $data = $report->toArray();
 | `MemoryLimitCheck` | Validates memory limit meets a minimum | `128` MB |
 | `DirectoryWritableCheck` | Confirms directories exist and are writable | (none) |
 
-## Custom Checks
+### Custom Checks
 
 Implement the `Check` interface to create your own checks:
 
