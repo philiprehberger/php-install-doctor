@@ -3,6 +3,7 @@
 [![Tests](https://github.com/philiprehberger/php-install-doctor/actions/workflows/tests.yml/badge.svg)](https://github.com/philiprehberger/php-install-doctor/actions/workflows/tests.yml)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/philiprehberger/php-install-doctor.svg)](https://packagist.org/packages/philiprehberger/php-install-doctor)
 [![License](https://img.shields.io/github/license/philiprehberger/php-install-doctor)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 CLI diagnostic tool that checks PHP extensions, permissions, and configuration.
 
