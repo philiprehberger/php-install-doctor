@@ -2,8 +2,7 @@
 
 [![Tests](https://github.com/philiprehberger/php-install-doctor/actions/workflows/tests.yml/badge.svg)](https://github.com/philiprehberger/php-install-doctor/actions/workflows/tests.yml)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/philiprehberger/php-install-doctor.svg)](https://packagist.org/packages/philiprehberger/php-install-doctor)
-[![License](https://img.shields.io/github/license/philiprehberger/php-install-doctor)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/php-install-doctor)](https://github.com/philiprehberger/php-install-doctor/commits/main)
 
 CLI diagnostic tool that checks PHP extensions, permissions, and configuration.
 
@@ -164,6 +163,24 @@ vendor/bin/pint --test
 vendor/bin/phpstan analyse
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/php-install-doctor)
+
+🐛 [Report issues](https://github.com/philiprehberger/php-install-doctor/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/php-install-doctor/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
